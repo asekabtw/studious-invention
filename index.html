@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        display: none;
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        top: 96%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #000;
+      }
+      .attribution a {
+        color: orange;
+      }
+
+      @media screen and (min-width: 90em) {
+        .attribution {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- content -->
+    <main class="content">
+      <!-- slider -->
+      <div class="slider">
+        <!-- slider item -->
+        <div class="slider-wrapper">
+          <!-- slider img -->
+          <div class="slider__img">
+            <img id="image" src="./images/image-tanya.jpg" alt="" />
+
+            <!-- slider btn -->
+            <div class="btn">
+              <button id="prev" class="btn__item btn__item--prev">
+                <img class="btn__image" src="./images/icon-prev.svg" alt="" />
+              </button>
+              <button id="next" class="btn__item btn__item--next">
+                <img class="btn__image" src="./images/icon-prev.svg" alt="" />
+              </button>
+            </div>
+            <!-- end of slider btn -->
+          </div>
+
+          <div class="slider__info">
+            <p class="slider__desc">
+              “ I’ve been interested in coding for a while but never taken the
+              jump, until now. I couldn’t recommend this course enough. I’m now
+              in the job of my dreams and so excited about the future. ”
+            </p>
+            <h1 class="slider__author">Tanya Sinclair</h1>
+            <h2 class="slider__job">UX Engineer</h2>
+          </div>
+          <!-- end of slider img -->
+        </div>
+        <!-- end of slider item -->
+      </div>
+      <!-- end of slider -->
+    </main>
+    <!-- end of content -->
+
+    <!-- attribution -->
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a target="_blank" href="https://github.com/asekabtw">asekabtw</a>.
+    </footer>
+    <!-- end of attribution -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
